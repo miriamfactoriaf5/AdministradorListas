@@ -1,0 +1,57 @@
+body {
+    display: block;
+    background-image: url(Archivos//fondopizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+table {
+    
+    /* width: 500px;
+    height: 500px; */
+    border: 1px solid black;
+    /* overflow: auto; */
+}
+
+/* Navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(185, 0, 0), rgb(255, 24, 24));
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+#buttons {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    body {
+      width: 100%;
+      height: 64rem;
+      background-size: cover;
+    }
